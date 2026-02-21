@@ -14,7 +14,7 @@ Check the details at SharpAPI's [Content API](https://sharpapi.com/en/catalog/ai
 ## Requirements
 
 - PHP >= 8.1
-- Laravel >= 9.0
+- Laravel >= 10.48.29
 
 ---
 
