@@ -37,6 +37,11 @@ class ContentDetectSpamService extends SharpApiClient
                 'sharpapi-content-detect-spam.api_job_status_polling_wait',
                 180)
         );
+        $this->setUseCustomInterval(
+            (bool) config(
+                'sharpapi-content-detect-spam.api_job_status_use_polling_interval',
+                false)
+        );
         $this->setUserAgent('SharpAPILaravelContentDetectSpam/1.0.0');
     }
 
